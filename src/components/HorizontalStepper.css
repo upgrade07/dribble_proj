@@ -1,0 +1,58 @@
+    .heading{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .h4tag{
+        margin-top: 1rem;
+        color: gray;
+        font-family: 'Inter', sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+    }
+
+    .cardcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .strong{
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        font-weight: 200;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: flex-start;
+        margin: 10px;
+        width: auto;
+        height: auto;
+        border: 1px solid #ebebee;
+        border-radius: 5%;
+    }
+
+    .card:hover{
+        border: 1px solid #6951e6;
+        cursor: pointer;
+        
+    }
+
+    .h4tagcard{
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: gray;
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+        font-weight: 100;
+        padding-left: 1rem;
+    }
+
+
+
